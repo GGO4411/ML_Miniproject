@@ -1,0 +1,37 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Temporary/log files
+*.log
+*.tmp
+*.bak
+
+# Generated model artifacts (commit only if intentionally required)
+*.pkl
+*.joblib
+
+# Large local dataset files (keep data externally hosted where possible)
+train_values.csv
+train_labels.csv
+test_values.csv
+submission_format.csv
